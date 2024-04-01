@@ -73,6 +73,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 0;
+}
 
 :root {
     --white: #FFFFFF;
